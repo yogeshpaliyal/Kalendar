@@ -149,7 +149,8 @@ internal fun KalendarEndlos(
                                 },
                                 onDayClick = { newDate, clickedDateEvent ->
                                     onDayClick(newDate, clickedDateEvent)
-                                }
+                                },
+                                onErrorRangeSelected = onErrorRangeSelected
                             )
                         },
                         events = events,
